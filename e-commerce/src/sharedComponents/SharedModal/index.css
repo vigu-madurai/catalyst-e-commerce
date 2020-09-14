@@ -1,0 +1,20 @@
+.ReactModal__Overlay {
+    background-color: rgba(0, 0, 1, 0.75) !important;
+}
+
+.modal-close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: indianred;
+    border: 0;
+    border-radius: 6px;
+    padding: 1px 5px;
+    color: white;
+    font-weight: 600;
+}
+
+.under-dev {
+    font-size: 30px;
+    padding: 70px;
+}
