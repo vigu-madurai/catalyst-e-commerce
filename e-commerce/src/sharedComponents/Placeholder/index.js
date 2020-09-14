@@ -1,12 +1,10 @@
 import React from 'react';
-// import logo from './logo.svg';
 import './index.css';
 
 function Placeholder() {
   return (
-    <div>
-        <div className="placeholder-outer-wrapper" >
-            Placeholder
+    <div className="placeholder-outer-wrapper">
+        <div className="placeholder-wrapper">
         </div>
     </div>
   );

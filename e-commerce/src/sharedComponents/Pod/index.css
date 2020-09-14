@@ -1,0 +1,92 @@
+.pod-outer-wrapper {
+    margin: 5px 10px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.pod-inner-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 280px;
+    border: solid 1px #efefef;
+    margin: 10px;
+    border-radius: 3px;
+    position: relative;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+
+.pod-inner-wrapper:hover {
+    box-shadow: 0 2px 1px rgba(0,0,0,0.3);
+    border-color: lightseagreen;
+}
+
+.pod-img-wrapper {
+    width: 80%;
+    height: 250px;
+    position: relative;
+    margin: auto;
+    padding: 10px;
+}
+
+.pod-img-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.pod-desc-wrapper {
+    border-top: solid 1px #efefef;
+    width: 90%;
+    height: 100%;
+    padding: 10px;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pod-price-wrapper {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.pod-details-wrapper {
+    font-size: 10px;
+    background: #ececec;
+    padding: 3px;
+    line-height: 1.6;
+}
+
+.pod-sale-offer-name {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: inline-block;
+    padding: 2px 10px;
+    background: rosybrown;
+    border-bottom-left-radius: 10px;
+    font-size: 13px;
+}
+
+.pod-sale-discount {
+    background: seagreen;
+    color: white;
+    padding: 5px 10px;
+    position: absolute;
+    bottom: 48px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    left: 0px;
+    font-size: 12px;
+    font-weight: 600;
+}

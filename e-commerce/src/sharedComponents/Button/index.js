@@ -1,15 +1,13 @@
 import React from 'react';
-// import logo from './logo.svg';
 import './index.css';
 
-function Button() {
-  return (
-    <div>
-        <div className="btn-outer-wrapper" >
-            Button
-        </div>
-    </div>
-  );
+function Button(props) {
+	const { btnName, btnClick, btnClassName } = props;
+	return (
+		<div className={`btn-outer-wrapper ${btnClassName}`} onClick={() => btnClick()}>
+			{btnName}
+		</div>
+	);
 }
 
 export default Button;
