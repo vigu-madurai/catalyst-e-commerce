@@ -1,17 +1,15 @@
 import React from 'react';
-// import logo from './logo.svg';
 import './index.css';
 import Placeholder from '../../sharedComponents/Placeholder';
+import SharedModal from '../../sharedComponents/SharedModal';
 
 function Header() {
-  return (
-    <div>
-        <header className="header-wrapper">
-            placeholder for logo
-            <Placeholder />
-        </header>
-    </div>
-  );
+	return (
+		<header className='header-wrapper'>
+			<Placeholder />
+			<SharedModal modalBtnName={'GOTO CART'} modalBtnClassName={'btn-cart'} />
+		</header>
+	);
 }
 
 export default Header;
