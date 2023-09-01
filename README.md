@@ -1,6 +1,6 @@
 # E-commerce
 
-## Problem statement:
+## Problem statement::
 
 Create a fully functional E-commerce application on MERN stack.
 
